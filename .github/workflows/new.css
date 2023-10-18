@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page1{
+    height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./Images/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+
+}
+#page1>article{
+ height: 70px;
+ width: 100%;
+ /* background-color: aqua; */
+ display: flex;
+ justify-content: center;
+}
+#page1>article>main{
+    height: 70px;
+    width: 75%;
+    /* background-color: blue; */
+    display: flex;
+}
+#page1>article>main>.logo{
+    height: 70px;
+    width: 50%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+}
+#page1>article>main>.logo>svg{
+    height: 80%;
+    width: 25%;
+    fill: rgb(229,9,20);
+}
+#page1>article>main>.btns{
+    height: 70px;
+    width: 50%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    padding-left: 330px ;
+}
+#page1>article>main>.btns>header{
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;                                                                                         
+    
+}
+#page1>article>main>.btns>header>i{
+    color: white;
+}
+#page1>article>main>.btns>header>select{
+    width: 90px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+}
+#page1>article>main>.btns>button{
+    height: 30px;
+    width: 85px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(229,9,20);
+    color: white;
+}
+#page1>.h{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1>.h>.a{
+    height: 50%;
+    width: 70%;
+    /* border: 2px solid white; */
+    text-align: center;
+    line-height: 60px;
+    background-color: linear-gradient(to top, black, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+#page1>.h>.a>h1{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#page1>.h>.a>h3{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+#page1>.h>.a>p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+#page1>.h>.a>input{
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    color: gray;
+    background-color: black;
+    opacity: 0.4;
+    border: 1px solid gray;
+}
+#page1>.h>.a>.b{
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    background-color: rgb(229,9,20) ;
+    color: white;
+}
+#page2{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    border: 5px solid rgb(35, 35, 35);
+    display: flex;
+    /* justify-content: center; */
+}
+
+#page2>.art1{
+    height: 510px;
+    width: 600px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 170px;
+    /* text-align: center; */
+
+}
+
+#page2>.art2{
+    height: 510px;
+    width: 600px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 0px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#page2>.art1>h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 158px;
+}
+
+#page2>.art1>p{
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+#page2>.art2>video{
+    position: relative;
+    height: 230px;
+    width: 600px;
+    top: 110px;
+    left: -28px;
+}
+#page2>.art2>img{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: -200px;
+}
+#page3{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    border: 5px solid rgb(35, 35, 35);
+    display: flex;
+    /* justify-content: center; */
+    
+}
+#page3>.art1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+
+}
+#page3>.art2{
+    height: 100%;
+    width: 100%;
+   
+}
+#page3>.art1>img{
+    height: 57vh;   
+    width:78%;
+    position: relative;
+    left: 140px;
+    top: 60px;
+}
+
+#page3>.art1>div{
+    height: 17%;
+    width: 44%;
+   border: 1px solid white;
+   background-color: rgb(0,0,0);
+   border-radius: 10px;
+    position: relative;
+    top: -60px;
+    left: 257px;
+    /* display: flex; */
+}
+#page3>.art1>div>img{
+    height: 70px;
+    width: 70px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#page3>.art1>div>h4{
+    color: white;
+    /* padding-top: -40px; */
+    position: relative;
+    left: 90px;
+    top: -50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#page3>.art1>div>p{
+    color: rgb(58, 58, 203);
+    position: relative;
+    left: 90px;
+    top:-50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#page3>.art1>div>video{
+    /* background-color: blue; */
+    height: 80px;
+    width: 80px;
+    position: relative;
+    z-index: 1;
+    left: 270px;
+    top: -110px;
+}
+#page3>.art2>h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;    
+    color: white;
+    margin-top: 158px;   
+}
+#page3>.art2>p{
+    font-size: 22px;
+    color: white;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+#page4{
+    height: 70vh;
+    width: 100%;
+    /* background-color: black; */
+    border: 5px solid rgb(35, 35, 35);
+    display: flex;
+    /* justify-content: center; */
+}
+#page4>.art1{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    /* margin-top: 20px; */
+    /* margin-left: 170px; */
+    /* text-align: center; */
+
+}
+#page4>.art2{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+   
+}
+#page4>.art1>h2{
+    font-size: 41px;
+    font-weight: 900;
+    font-family: sans-serif;    
+    color: white;
+    margin-top: 158px;   
+    text-align: center;
+}
+#page4>.art1>p{
+    font-size: 22px;
+    color: white;
+    margin-top: 15px;
+    font-family: sans-serif;
+    /* text-align: center; */
+    position: relative;
+    left: 20%;
+}
+#page4>.art2>img{
+    height: 78%;
+    width: 75%;
+    position: relative;
+    top: -320px;
+}
+#page4>.art2>video{
+    position: relative;
+    height: 80%;
+    width: 48%;
+    top: -20px;
+    left: 85px;
+}
+#page5{
+    height: 70vh;
+    width: 100%;
+    /* background-color: black; */
+    border: 5px solid rgb(35, 35, 35);
+    display: flex;
+    /* justify-content: center; */
+}
+#page5>.art1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0,0,0);
+    /* margin-top: 20px; */
+    /* margin-left: 170px; */
+    /* text-align: center; */
+
+}
+#page5>.art2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0,0,0); 
+}
+#page5>.art1>img{
+    height: 85%;
+    width: 85%;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+#page5>.art2>h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: sans-serif;    
+    color: white;
+    margin-top: 158px;   
+    /* text-align: center; */
+
+}
+#page5>.art2>p{
+    font-size: 22px;
+    color: white;
+    margin-top: 15px;
+    font-family: sans-serif;
+   
+
+}
+#page6{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    border: 5px solid rgb(35, 35, 35);
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+}
+#page6>h2{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: sans-serif;    
+    color: white;
+    margin-left: 300px;
+    margin-top: 60px;
+    
+    
+}
